@@ -6,3 +6,6 @@ A simple German dictionary.
 npm install 
 electron main.js
 ```
+
+## License
+MIT.
