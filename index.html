@@ -4,18 +4,33 @@
         <title>Wiktionary</title>
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
+        <link href="css/spinner.css" rel="stylesheet">
     </head>
     <body>
         <div class="main">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
+                        <input type="text" class="form-control" id="word">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button" id="query">Go!</button>
+                            <button class="btn btn-default" type="button" id="query">Search</button>
                         </span>
                     </div>
                 </div>
+            </div>
+            <div class="sk-fading-circle loading">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
             </div>
             <div id="query-results"></div>
         </div>
