@@ -4,6 +4,7 @@ A simple German dictionary.
 ## Usage
 ```
 npm install 
+
 electron main.js
 ```
 
