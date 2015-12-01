@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Frederick-S/electron-wiktionary-de",
   "dependencies": {
-    "dict-de": "0.0.3",
+    "dict-de": "0.0.4",
     "jquery": "^2.1.4"
   }
 }
